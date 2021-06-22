@@ -6,7 +6,7 @@
 import base64
 import sys
 
-test_data = "MIIBUQIBAQQgR04ZBiO41msrTD7RhVm/a5CbCWTbR0ZOzw/Dd6URJlCggeMwgeAC\nAQEwLAYHKoZIzj0BAQIhAP////7/////////////////////AAAAAP//////////\nMEQEIP////7/////////////////////AAAAAP/////////8BCAo6fqenZ9eNE1a\nnkvPZQmn85eJ9RWrj5LdvL1BTZQOkwRBBDLEriwfGYEZX5kERmo5yZSP4wu/8mYL\n4XFaRYkzTHTHvDc2ovT2d5xZvc7ja2khU9Cph3zGKkdAAt8y5SE58KACIQD////+\n////////////////cgPfayHGBStTu/QJOdVBIwIBAaFEA0IABLDD8Q8qaVsdmbL2\nZdQ9CJF4WSL/qyWKnuUL0lpRWYIvnJF28nKGzeP/6T9gI6OyoWhILjFjshxVpwrn\n4c7jQmI="
+test_data = "MCgCIQDAMyxcZK5HGC9sHIdtQjNpEFRaWPfu/vwLyq9a80HM3QIDAQAB"
 
 def ByteToHex(bins):
     return ''.join( [ "%02X" % x for x in bins ] ).strip()
