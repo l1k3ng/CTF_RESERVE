@@ -16,7 +16,7 @@
 
 根据字符串特征可知，encode_one为base64加密。
 
-## 0x002 第二次加密 encode_two
+## 0x003 第二次加密 encode_two
 
 进入encode_two函数查看
 
